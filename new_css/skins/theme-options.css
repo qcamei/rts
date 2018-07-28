@@ -1,0 +1,305 @@
+/*  Layout Styles -----------------------------------------*/
+
+#layout{
+	overflow: hidden;
+	position: relative;
+	background: transparent;
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	transition: 0.5s all ease;
+	z-index: 100;
+}
+.no_padtop.content-central{
+	margin-top: 180px;
+}
+.content-central{	
+	max-width: 1230px;
+	margin: 0px auto;
+	background: #FFF;
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	z-index: 99;
+	position: relative;
+	margin-top: -70px;
+	margin-bottom: -150px;
+}
+.layout-semiboxed footer .container{
+	width: 1230px !important;
+	padding: 0 !important;
+}
+.layout-wide .content-central{	
+	max-width: 100%;	
+}
+.layout-wide .content-central{	
+	/*margin-top: -100px;*/
+}
+.layout-wide .semiboxshadow{
+	display: none;
+}
+.layout-wide .tab-content{
+	margin-left: 0;
+}
+.layout-wide .section-title{
+	/*height: 250px;*/
+}
+.layout-wide .crumbs:before{
+    left: 23%;
+}
+.layout-boxed{
+	max-width: 1230px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	transition: 0.5s all ease;
+}
+.layout-boxed-margin{
+	max-width: 1230px;
+	margin: 50px auto;
+	-webkit-box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	box-shadow: 0 1px 10px rgba(0,0,0,0.3);
+	-webkit-transition: 0.5s all ease;
+	-moz-transition: 0.5s all ease;
+	-o-transition: 0.5s all ease;
+	-ms-transition: 0.5s all ease;
+	transition: 0.5s all ease;
+}
+.layout-boxed header, 
+.layout-boxed-margin header{
+	position: absolute;
+}
+.layout-boxed #slide-features .container, 
+.layout-boxed-margin #slide-features .container,
+.layout-semiboxed #slide-features .container{
+	float: left;
+	margin-left: 30px;
+}
+
+/* COLOR SKINS -------------------------------*/
+
+.colorbox { width:100%; height:100%; cursor:pointer; display:block; }
+.blue { background-color:#0088cc; }
+.red { background-color:#E1483F; }
+.yellow { background-color:#fff000; }
+.green { background-color:#88C425; }
+.orange { background-color:#FFB43F; }
+.purple { background-color:#894997; }
+.pink { background-color:#FF3D7F; }
+.cocoa { background-color:#755C3B; }
+
+/* BACKGROUNDS PATTERS -------------------------------*/
+
+.bgnone { background-image: url("../../new_img/bg-theme/none.jpg"); }
+.bg1 { background-image: url("../../new_img/bg-theme/1.png"); }
+.bg2 { background-image: url("../../new_img/bg-theme/2.png"); }
+.bg3 { background-image: url("../../new_img/bg-theme/3.png"); }
+.bg4 { background-image: url("../../new_img/bg-theme/4.png"); }
+.bg5 { background-image: url("../../new_img/bg-theme/5.png"); }
+.bg6 { background-image: url("../../new_img/bg-theme/6.png"); }
+.bg7 { background-image: url("../../new_img/bg-theme/7.png"); }
+.bg8 { background-image: url("../../new_img/bg-theme/8.png"); }
+.bg9 { background-image: url("../../new_img/bg-theme/9.png"); }
+.bg10 { background-image: url("../../new_img/bg-theme/10.png"); }
+.bg11 { background-image: url("../../new_img/bg-theme/11.png"); }
+.bg12 { background-image: url("../../new_img/bg-theme/12.png"); }
+.bg13 { background-image: url("../../new_img/bg-theme/13.png"); }
+.bg14 { background-image: url("../../new_img/bg-theme/14.png"); }
+.bg15 { background-image: url("../../new_img/bg-theme/15.png"); }
+.bg16 { background-image: url("../../new_img/bg-theme/16.png"); }
+.bg17 { background-image: url("../../new_img/bg-theme/17.png"); }
+.bg18 { background-image: url("../../new_img/bg-theme/18.png"); }
+.bg19 { background-image: url("../../new_img/bg-theme/19.png"); }
+.bg20 { background-image: url("../../new_img/bg-theme/20.png"); }
+.bg21 { background-image: url("../../new_img/bg-theme/21.png"); }
+.bg22 { background-image: url("../../new_img/bg-theme/22.png"); }
+.bg23 { background-image: url("../../new_img/bg-theme/23.png"); }
+.bg24 { background-image: url("../../new_img/bg-theme/24.png"); }
+.bg25 { background-image: url("../../new_img/bg-theme/25.png"); }
+.bg26 { background-image: url("../../new_img/bg-theme/26.png"); }
+
+/* BACKGROUNDS PATTERS -------------------------------*/
+
+#theme-options ul.backgrounds li.bgnone { background-image: url("../../new_img/bg-theme/none.jpg"); }
+#theme-options ul.backgrounds li.bg1 { background-image: url("../../new_img/bg-theme/1.png"); }
+#theme-options ul.backgrounds li.bg2 { background-image: url("../../new_img/bg-theme/2.png"); }
+#theme-options ul.backgrounds li.bg3 { background-image: url("../../new_img/bg-theme/3.png"); }
+#theme-options ul.backgrounds li.bg4 { background-image: url("../../new_img/bg-theme/4.png"); }
+#theme-options ul.backgrounds li.bg5 { background-image: url("../../new_img/bg-theme/5.png"); }
+#theme-options ul.backgrounds li.bg6 { background-image: url("../../new_img/bg-theme/6.png"); }
+#theme-options ul.backgrounds li.bg7 { background-image: url("../../new_img/bg-theme/7.png"); }
+#theme-options ul.backgrounds li.bg8 { background-image: url("../../new_img/bg-theme/8.png"); }
+#theme-options ul.backgrounds li.bg9 { background-image: url("../../new_img/bg-theme/9.png"); }
+#theme-options ul.backgrounds li.bg10 { background-image: url("../../new_img/bg-theme/10.png"); }
+#theme-options ul.backgrounds li.bg11 { background-image: url("../../new_img/bg-theme/11.png"); }
+#theme-options ul.backgrounds li.bg12 { background-image: url("../../new_img/bg-theme/12.png"); }
+#theme-options ul.backgrounds li.bg13 { background-image: url("../../new_img/bg-theme/13.png"); }
+#theme-options ul.backgrounds li.bg14 { background-image: url("../../new_img/bg-theme/14.png"); }
+#theme-options ul.backgrounds li.bg15 { background-image: url("../../new_img/bg-theme/15.png"); }
+#theme-options ul.backgrounds li.bg16 { background-image: url("../../new_img/bg-theme/16.png"); }
+#theme-options ul.backgrounds li.bg17 { background-image: url("../../new_img/bg-theme/17.png"); }
+#theme-options ul.backgrounds li.bg18 { background-image: url("../../new_img/bg-theme/18.png"); }
+#theme-options ul.backgrounds li.bg19 { background-image: url("../../new_img/bg-theme/19.png"); }
+#theme-options ul.backgrounds li.bg20 { background-image: url("../../new_img/bg-theme/20.png"); }
+#theme-options ul.backgrounds li.bg21 { background-image: url("../../new_img/bg-theme/21.png"); }
+#theme-options ul.backgrounds li.bg22 { background-image: url("../../new_img/bg-theme/22.png"); }
+#theme-options ul.backgrounds li.bg23 { background-image: url("../../new_img/bg-theme/23.png"); }
+#theme-options ul.backgrounds li.bg24 { background-image: url("../../new_img/bg-theme/24.png"); }
+#theme-options ul.backgrounds li.bg25 { background-image: url("../../new_img/bg-theme/25.png"); }
+#theme-options ul.backgrounds li.bg26 { background-image: url("../../new_img/bg-theme/26.png"); }
+
+
+/* Theme Options ----------------------------------------------*/
+
+#theme-options {	
+	position:fixed;	
+	z-index: 9999;	
+	width: auto;	
+	left: -280px;
+	width: 280px;
+	top: 40px;
+	border: 1px solid #E8DAA5;
+	border-left: 0;
+	border-radius: 0 8px 8px 0;
+	/*background: #fff;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2d999+0,a2794d+100 */
+	background: #f2d999; /* Old browsers */
+	background: -moz-linear-gradient(top, #f2d999 0%, #a2794d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f2d999), color-stop(100%,#a2794d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #f2d999 0%,#a2794d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #f2d999 0%,#a2794d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #f2d999 0%,#a2794d 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #f2d999 0%,#a2794d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2d999', endColorstr='#a2794d',GradientType=0 ); /* IE6-9 */
+	z-index: 999999;	
+	padding-bottom: 10px;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	transition: 0.3s all ease;
+}
+#theme-options .title {
+	padding: 10px 5px 0 12px;	
+	font-size: 11px;
+	line-height: 18px;
+	font-weight: normal;
+	position: relative;
+}
+#theme-options .title p{
+	margin: 10px 0;
+	font-size: 0.7rem;
+	font-weight: lighter;
+}
+#theme-options .title span{
+	margin-left: -12px;
+}
+#theme-options .openclose {
+	cursor: pointer;
+	display: block;
+	height: 320px;
+	position: absolute;
+	top: 120px;
+	right: -40px;
+	width: 40px;
+	background: url("../../new_img/demo/theme-options1.png") no-repeat top left;
+	background-size: contain;
+}
+#theme-options span {
+	display: block;
+	width: 100%;
+	padding: 0 12px 0 12px;
+	font-size: 14px;
+}
+#theme-options ul { 
+	padding: 3px 5px; 
+	margin: 0;
+}
+#theme-options ul li {
+	/*display: inline-block;*/
+	margin: 0 0 2px 0;
+	/*border: 1px solid #dbdbdb;*/
+	/*overflow: hidden;*/
+	/*width: 20px;*/
+	/*height: 20px;*/
+	/*background-repeat: repeat;*/
+	/*cursor: pointer;*/
+}
+#theme-options ul.backgrounds li:hover { 
+	border-color: #ccc; 
+}
+#theme-options ul.backgrounds li.active,#theme-options ul.backgrounds li.active:hover { 
+	border-color: #ff9600; 
+}
+#theme-options .layout-style li{
+	width: 48%;
+	padding:5px 3px;	
+	display: inline-block;
+	height: auto;
+	font-size: 11px;
+	line-height: 20px;
+	text-align: center;
+}
+#theme-options .layout-style li.active,
+#theme-options .layout-style li.active a{
+	color: #fff;
+}
+#theme-options .layout-style li  a:hover{
+	text-decoration: none;
+}
+#theme-options .layout-style li a{
+	font-size: 11px;
+	color: #424242;
+}
+
+#theme-options ul li.countryss h3{
+	border-radius: 3px;
+	width: 50px;
+	font-size: 13px;
+	text-align: center;
+	padding: 4px 0px;
+	/*background: #9F0B0B;*/
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#a90329+0,8f0222+44,6d0019+100;Brown+Red+3D */
+	background: #a90329; /* Old browsers */
+	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+	/*border: 1px #020202 solid;*/
+	margin-right: 3px;
+	color: #FFF;
+	font-family: "Raleway", Arial, \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Adobe 黑体 Std R,Adobe 繁黑體 Std B;
+}
+#theme-options .cityss li a{
+	font-size: 13px;
+	letter-spacing: 1.1px;
+	color: #000;
+	border-right: 1px #F1E7BA solid;
+	padding-right: 5px;
+	font-family: "Raleway", Arial, \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Adobe 黑体 Std R,Adobe 繁黑體 Std B;
+}
+#theme-options .cityss li:last-child a{
+	border-right: none;
+}
+#theme-options .countryss td{
+	height: 30px;
+	line-height: 1em;
+}
+#theme-options h2{
+	font-size: 18px;
+	color: #614216;
+	margin: 10px 0px 8px 5px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	font-family: "Raleway", Arial, \5FAE\8EDF\6B63\9ED1\9AD4,\65B0\7D30\660E\9AD4, Adobe 黑体 Std R,Adobe 繁黑體 Std B;
+}

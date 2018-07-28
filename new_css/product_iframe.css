@@ -1,0 +1,182 @@
+﻿/*----同業網站崁入基本設定----*/
+
+/*--------------setting----------------*/
+.clearbr{
+  clear: both;
+}
+#rtsProductForm{
+  width: 100%;
+  background: #F5F5F5;
+}
+
+#rtsProductForm.form_setting h3{
+  font-size: 16px;
+  letter-spacing: 1.1px;
+  background: url("../new_img/rts_icon2.png") no-repeat;
+  padding-left: 22px;
+}
+#rtsProductForm.form_setting input{
+  height: 35px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px #ccc solid;
+  padding: 0px 15px;
+}
+#rtsProductForm.form_setting input[type=checkbox]{
+  height: auto;
+  width: auto;
+  margin-top: 5px;
+}
+#rtsProductForm.form_setting .order_check label{
+  font-size: 14px;
+  font-weight: normal;
+}
+#rtsProductForm.form_setting select{
+  height: 35px;
+  width: 100%;
+  border: 1px #ccc solid;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+#rtsProductForm.form_setting .list_1 span{
+  float: left;
+  padding-top: 5px;
+  width: 20px;
+  text-align: center;
+}
+#rtsProductForm.form_setting .list_1 input{
+  width: 42%;
+  float: left;
+}
+#rtsProductForm.form_setting .list_2 select{
+  width: 30%;
+}
+#rtsProductForm.form_setting button{
+  padding: 0px 40px;
+  height: 35px;
+  text-align: center;
+  background: #a83c3c; /* Old browsers */
+  background: -webkit-linear-gradient(#a83c3c 0%, #841b1b 100%);
+  background: -o-linear-gradient(#a83c3c 0%, #841b1b 100%);
+  background: linear-gradient(#a83c3c 0%, #841b1b 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a83c3c', endColorstr='#841b1b',GradientType=0 ); /* IE6-9 */
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 1.3px;
+}
+
+#rtsProductForm.form_setting a:hover button{
+  background: #7E1515;
+  border: none;
+}
+
+/*--------------leftForm----------------*/
+#rtsProductForm.leftForm{
+  padding: 20px 5px;
+  min-height: 400px;
+}
+#rtsProductForm.leftForm .list_1,#rtsProductForm.leftForm .list_2,#rtsProductForm.leftForm .list_3,#rtsProductForm.leftForm .list_4{
+  width: 100%;
+  padding: 0px 1%;
+}
+#rtsProductForm.leftForm .list_4{
+  text-align: right;
+}
+#rtsProductForm.leftForm .list_4 .order_check{
+  margin-top: 10px;
+}
+
+
+
+/*--------------listForm----------------*/
+#rtsProductForm.listForm{
+  margin-bottom: 30px;
+  min-height: 100px;
+}
+#rtsProductForm.listForm .list_1{
+  width: 30%;
+  float: left;
+  padding: 0px 1%;
+}
+#rtsProductForm.listForm .list_2{
+  width: 35%;
+  padding: 0px 1%;
+  float: left;
+}
+#rtsProductForm.listForm .list_3{
+  width: 20%;
+  padding: 0px 1%;
+  float: left;
+}
+#rtsProductForm.listForm .list_4{
+  width: 15%;
+  padding: 0px 1%;
+  float: left;
+  text-align: right;
+}
+#rtsProductForm.listForm .list_4 .order_check{
+  margin-top: 14px;
+}
+
+/*--------------listForm_responsive----------------*/
+@media only screen and (min-width: 1024px) {
+  .visible-mb{
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  #rtsProductForm.listForm{
+    min-height: 180px;
+  }
+  #rtsProductForm.listForm .list_1,#rtsProductForm.listForm .list_3{
+    width: 50%;
+    float: left;
+    padding: 0px 1%;
+  }
+  #rtsProductForm.listForm .list_2{
+    width: 50%;
+    padding: 0px 1%;
+    float: left;
+  }
+  #rtsProductForm.listForm .list_4{
+    width: 50%;
+    padding: 0px 1%;
+    float: left;
+    text-align: right;
+  }
+  #rtsProductForm.listForm .list_4 .order_check{
+    margin-top: 14px;
+  }
+  .visible-mb{
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #rtsProductForm.listForm{
+    min-height: 310px;
+  }
+  #rtsProductForm.listForm .list_1,#rtsProductForm.listForm .list_3{
+    width: 100%;
+    float: left;
+    padding: 0px 1%;
+  }
+  #rtsProductForm.listForm .list_2{
+    width: 100%;
+    padding: 0px 1%;
+    float: left;
+  }
+  #rtsProductForm.listForm .list_4{
+    width: 100%;
+    padding: 0px 1%;
+    float: left;
+    text-align: right;
+  }
+  #rtsProductForm.listForm .list_4 .order_check{
+    margin-top: 15px;
+  }
+  .hidden-mb{
+    display: none !important;
+  }
+}
